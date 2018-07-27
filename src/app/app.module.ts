@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 
+import { TabsPage } from './../pages/tabs/tabs';
 import { FavoritesPage } from './../pages/favorites/favorites';
 import { QuotePage } from './../pages/quote/quote';
 import { QuotesPage } from './../pages/quotes/quotes';
@@ -14,6 +15,7 @@ import { SettingsPage } from '../pages/settings/settings';
 @NgModule({
   declarations: [
     MyApp,
+    TabsPage,
     FavoritesPage,
     LibraryPage,
     QuotesPage,
@@ -27,6 +29,7 @@ import { SettingsPage } from '../pages/settings/settings';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    TabsPage,
     FavoritesPage,
     LibraryPage,
     QuotesPage,
